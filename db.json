@@ -11,7 +11,7 @@
   "profile": {
     "name": "achmadnf18"
   },
-  "api/down_payment": {
+  "down_payment": {
     "success": true,
     "message": "Data loaded",
     "data": [
