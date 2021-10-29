@@ -1,7 +1,7 @@
 {
   "login": {
     "success": true,
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6ZmFsc2UsImNvbXBhbnkiOiJLU05JIiwiZXhwIjoxNjM0NzI1NTY0LCJuYW1lIjoiYWRtaW4ifQ.fTp0xPgY5f3yJ9lqsfDaPK_5lP6s94eB7Mgxq5PatDs"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6ZmFsc2UsImNvbXBhbnkiOiJLU05JIiwiZXhwIjoxNjM0NzI1NTY0LCJuYW1lIjoiYWRtaW4iLCJyb2xlIjoidmVuZG9yIn0.VjA3kGtCz9bNF1f05d2l0vmJTkMMvhNrlcU9REaoU9g"
   },
   "down_payment": {
     "success": true,
@@ -159,5 +159,302 @@
         }
     ],
     "count": 15
+  },
+  "down_payment_find": {
+    "success": true,
+    "message": "Data loaded",
+    "data": {
+        "company_id": "KSNI",
+        "document_number": "2100000021",
+        "document_date": "2021-10-01T00:00:00Z",
+        "posting_date": "2021-10-01T00:00:00Z",
+        "vendor_id": "100004",
+        "po_number": "4510000029",
+        "invoice_number": "INV-1",
+        "invoice_date": "2021-10-01T00:00:00Z",
+        "invoice_value": 100000,
+        "currency": "IDR",
+        "tax_invoice_number": "",
+        "ppn": 0,
+        "tax_invoice_date": "2021-10-01T00:00:00Z",
+        "status_id": "00",
+        "create_date": "2021-10-08T00:00:00Z",
+        "create_time": "22:10:14",
+        "created_by": "admin",
+        "change_date": "",
+        "change_time": "",
+        "changed_by": "",
+        "Items": [
+            {
+                "purchase_item": 1,
+                "material": "1108000002",
+                "description": "COCOA POWDER ALK I M",
+                "net_price": 1980000,
+                "amount": 33000
+            },
+            {
+                "purchase_item": 2,
+                "material": "1108000003",
+                "description": "COCOA POWDER ALK I M 3",
+                "net_price": 1980000,
+                "amount": 33000
+            }
+        ],
+        "Requirements": [
+            {
+                "requirement_id": "01",
+                "id": 1,
+                "url": "Test LPB",
+                "data": "01_KSNI_2100000021_1"
+            },
+            {
+                "requirement_id": "03",
+                "id": 2,
+                "url": "Test Invoice",
+                "data": "03_KSNI_2100000021_2"
+            }
+        ]
+    }
+  },
+  "vendorList": {
+    "success": true,
+    "message": "Data loaded",
+    "data": [
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100000",
+            "vendor_name": "ALAM SUBUR TIRTA KENCANA",
+            "address": "",
+            "city": "JAKARTA",
+            "postal_code": "11740",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        },
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100001",
+            "vendor_name": "ANGELS PRODUCTS",
+            "address": "",
+            "city": "SERANG",
+            "postal_code": "42454",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        },
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100002",
+            "vendor_name": "ANINDOJAYA SWAKARSA, PT",
+            "address": "",
+            "city": "JAKART",
+            "postal_code": "14240",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        },
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100003",
+            "vendor_name": "APPALU AVADHANI EXIM",
+            "address": "",
+            "city": "",
+            "postal_code": "560034",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        },
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100004",
+            "vendor_name": "ASIANAGRO AGUNGJAYA",
+            "address": "",
+            "city": "",
+            "postal_code": "17550",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        },
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100005",
+            "vendor_name": "AROMAS CITRA JAYA, PT",
+            "address": "",
+            "city": "",
+            "postal_code": "11840",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        },
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100006",
+            "vendor_name": "ASIANAGRO AGUNGJAYA",
+            "address": "",
+            "city": "",
+            "postal_code": "14150",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        },
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100007",
+            "vendor_name": "ASTA",
+            "address": "",
+            "city": "",
+            "postal_code": "11111",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        },
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100008",
+            "vendor_name": "ASTAGUNA WISESA",
+            "address": "",
+            "city": "",
+            "postal_code": "11460",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        },
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100009",
+            "vendor_name": "ASVELIAGRACIA PRATAMA, PT",
+            "address": "",
+            "city": "",
+            "postal_code": "11530",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        },
+        {
+            "company_id": "KSNI",
+            "vendor_id": "0000100010",
+            "vendor_name": "BALLANTYNE FOODS PTY LTD",
+            "address": "",
+            "city": "SOUTH MELBOURNE",
+            "postal_code": "3000",
+            "create_date": "2021-10-08T00:00:00Z",
+            "create_time": "22:03:45",
+            "created_by": "admin",
+            "change_date": "",
+            "change_time": "",
+            "changed_by": ""
+        }
+    ],
+    "count": 10
+  },
+  "invoice": {
+    "success": true,
+    "message": "Data loaded",
+    "data": [
+        {
+            "document_number": "5100000006",
+            "request_date": "2021-10-11T00:00:00Z",
+            "invoice_value": 1000,
+            "currency": "IDR",
+            "status": "Draft"
+        },
+        {
+            "document_number": "5100000007",
+            "request_date": "2021-10-11T00:00:00Z",
+            "invoice_value": 1000,
+            "currency": "IDR",
+            "status": "Draft"
+        },
+        {
+            "document_number": "5100000008",
+            "request_date": "2021-10-11T00:00:00Z",
+            "invoice_value": 1000,
+            "currency": "IDR",
+            "status": "Draft"
+        }
+    ],
+    "count": 3
+  },
+  "invoice_find": {
+    "success": true,
+    "message": "Data loaded",
+    "data": {
+        "company_id": "KSNI",
+        "document_number": "5100000006",
+        "document_date": "2021-10-11T00:00:00Z",
+        "posting_date": "2021-10-11T00:00:00Z",
+        "vendor_id": "123",
+        "invoice_number": "INV--1",
+        "invoice_date": "2021-10-11T00:00:00Z",
+        "invoice_value": 1000,
+        "currency": "IDR",
+        "tax_invoice_number": "123",
+        "ppn": 100,
+        "tax_invoice_date": "2021-10-11T00:00:00Z",
+        "status_id": "00",
+        "create_date": "2021-10-15T00:00:00Z",
+        "create_time": "06:03:18",
+        "created_by": "admin",
+        "change_date": "",
+        "change_time": "",
+        "changed_by": "",
+        "Items": [
+            {
+                "id": 1,
+                "po_number": "4510000029",
+                "po_item": 1,
+                "reference_number": "5000000071",
+                "reference_item": 1,
+                "qty": 1,
+                "uom": "KG",
+                "delivery_number": "DLV123",
+                "receive_date": "2021-10-11T00:00:00Z"
+            }
+        ],
+        "Requirements": [
+            {
+                "requirement_id": "01",
+                "id": 1,
+                "url": "TestLPB.png",
+                "data": "01_KSNI_5100000006_1"
+            },
+            {
+                "requirement_id": "03",
+                "id": 2,
+                "url": "TestInvoice.png",
+                "data": "03_KSNI_5100000006_2"
+            }
+        ]
+    }
   }
 }
